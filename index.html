@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="info">
+        <p class="principal">SNAKE GAME!</p>
+        <div class="pont">
+            <label  >pontuação:</label>
+            <label id="pontua">0</label>
+        </div>
+        <button type="button" onClick="window.location.reload();">press to restart</button>
+    </div>
+    <label id="game-over"></label>
+    <div class="box">
+        
+    <canvas id="snake" width="512" height="512"></canvas>
+    </div>
+</body>
+</html>
